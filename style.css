@@ -1,0 +1,95 @@
+body{
+  background: #fafafa;
+}
+
+body main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main button{
+  background-color: #666;
+  color: white;
+  font-size: 20px;
+  border-radius: 5%;
+  padding: 5px 20px 5px;
+}
+
+
+.dino {
+  position: absolute;
+  bottom: 0;
+  background-image: url('images/dinossauro.png');
+  width: 64px; 
+  height: 64px;
+}
+
+.cactus {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  bottom: 0;
+  background-image: url('images/cactos.png');
+}
+
+.game-over {
+  text-align: center;
+  color: #666;
+  margin-top: 50px;
+  font-family: arial;
+}
+
+.reload{
+  background-color: #666;
+  color: white;
+  font-size: 15px;
+  border-radius: 5%;
+  padding: 10px 20px 10px;
+} 
+
+.gameOverReaload{
+  text-align: center;
+}
+
+.title ul>li{
+  text-align: left ;
+}
+
+.title{
+  margin-top: 30px ;
+  background-color: #eeeeee;
+  padding: 30px;
+  color: #666;
+  font-family: Arial;
+  width: 50%;
+  text-align: center;
+}
+
+
+@keyframes slideright {
+  from {
+      background-position: 70000%;
+  }
+  to {
+      background-position: 0%;
+  }
+}
+
+.background {
+  position: absolute;
+  bottom: 0px;
+  background-image: url('images/background.png');
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  -webkit-animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .title{
+    width: 80%;
+  }
+}
+
