@@ -70,10 +70,12 @@ function createCactus() {
 }
 
 function start(){
+  const animation = document.getElementsByClassName('.background');
+  
   createCactus();
   document.addEventListener('keyup', handleKeyUp);
+  animation.classList.add('.backgroundActive');
 }
-
 
 button.addEventListener('click', start);
 
