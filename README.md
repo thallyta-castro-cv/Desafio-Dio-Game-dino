@@ -20,3 +20,7 @@ funções e manipulação de elementos HTML usando JavaScript, estilização e a
 Recriei o jogo apresentado na aula adicionando uma mensagem de boas vindas e um botão para iniciar o jogo ao clicá-lo.
 Mudei as imagens com ícones do site Flaticon para dar mais cor ao projeto. Além disso, quando o jogo
 é finalizado com "Game Over" aparece uma mensagem de "Fim de jogo" e um botão para atualizar a página e jogar novamente.
+
+# Prévia do projeto
+
+![Prévia da Imagem](Dio-dino.mp4)
