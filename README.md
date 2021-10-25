@@ -23,4 +23,4 @@ Mudei as imagens com ícones do site Flaticon para dar mais cor ao projeto. Alé
 
 # Prévia do projeto
 
-![Prévia da Imagem](Dio-dino.mp4)
+[![Alternate Text]({image-url})]({Dio-dino.mp4} "Link Title")
