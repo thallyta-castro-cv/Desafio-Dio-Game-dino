@@ -21,6 +21,3 @@ Recriei o jogo apresentado na aula adicionando uma mensagem de boas vindas e um 
 Mudei as imagens com ícones do site Flaticon para dar mais cor ao projeto. Além disso, quando o jogo
 é finalizado com "Game Over" aparece uma mensagem de "Fim de jogo" e um botão para atualizar a página e jogar novamente.
 
-# Prévia do projeto
-
-[![Alternate Text]({image-url})]({Dio-dino.mp4} "Link Title")
